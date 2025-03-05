@@ -10,7 +10,7 @@ body {
   margin-right: 10px;
 }
 
-/* 🔹 Global Styles */
+/*  Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -23,20 +23,20 @@ body {
   color: #333;
   line-height: 1.6;
   display: flex;
-  justify-content: left; /* Center content horizontally */
-  align-items: left; /* Center content vertically */
+  justify-content: left; 
+  align-items: left; 
   min-height: 100vh;
   flex-direction: column;
-  padding-top: 80px; /* Prevent content from hiding under navbar */
+  padding-top: 80px; 
 }
 
-/* 🔹 Navigation Bar */
+/*  Navigation Bar */
 nav {
   background-color: #1e3a8a;
   color: white;
   padding: 1rem;
   display: flex;
-  justify-content: left; /* Center links in navbar */
+  justify-content: left; 
   align-items: center;
   gap: 20px;
   position: fixed;
@@ -57,21 +57,21 @@ nav a:hover {
   color: #ffcc00;
 }
 
-/* 🔹 Centering the Main Content */
+/*  Centering the Main Content */
 .container {
   max-width: 800px;
   width: 100%;
-  text-align: left; /* Center all text */
+  text-align: left; 
   padding: 2rem;
 }
 
-/* 🔹 Books List */
+/*  Books List */
 ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: left; /* Center book list */
+  align-items: left; 
 }
 
 li {
@@ -96,7 +96,7 @@ li a {
   color: #1e3a8a;
 }
 
-/* 🔹 Book Details */
+/*  Book Details */
 .book-details {
   background: white;
   padding: 20px;
@@ -105,7 +105,7 @@ li a {
   max-width: 600px;
   width: 100%;
   text-align: center;
-  margin: auto; /* Center content */
+  margin: auto; 
 }
 
 .book-details img {
@@ -122,7 +122,7 @@ li a {
   margin-bottom: 10px;
 }
 
-/* 🔹 Buttons */
+/* Buttons */
 button {
   background: #1e3a8a;
   color: white;
@@ -132,15 +132,14 @@ button {
   cursor: pointer;
   transition: background 0.3s;
   display: block;
-  margin: 10px auto; /* Center button */
-}
+  margin: 10px auto; 
 
 button:hover {
   background: #ffcc00;
   color: black;
 }
 
-/* 🔹 Account Page */
+/* Account Page */
 .account-container {
   background: white;
   padding: 20px;
@@ -160,7 +159,7 @@ button:hover {
   margin-top: 10px;
 }
 
-/* 🔹 Responsive Design */
+/* Responsive Design */
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
@@ -179,4 +178,5 @@ button:hover {
   .book-details, .account-container {
     width: 90%;
   }
+}
 }
