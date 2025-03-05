@@ -124,15 +124,14 @@ li a {
 
 /* Buttons */
 button {
-  background: #1e3a8a;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-  display: block;
-  margin: 10px auto; 
+  background-color: rgb(4, 0, 255) !important;
+  color: white !important;
+  border: 2px solid black !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
 
 button:hover {
   background: #ffcc00;
