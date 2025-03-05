@@ -21,7 +21,6 @@ const Login = () => {
       });
   
       const data = await response.json();
-      console.log("Login API Response:", data);
   
       if (!response.ok) {
         throw new Error(data.message || "Login failed.");

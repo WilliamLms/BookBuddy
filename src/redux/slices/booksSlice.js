@@ -10,7 +10,7 @@ export const fetchBooks = createAsyncThunk("books/fetchBooks", async () => {
       throw new Error("Invalid API response format: Expected an object with a `books` array");
     }
 
-    return data.books; // Return the books array
+    return data.books; 
   } catch (error) {
     console.error("Error fetching books:", error);
     throw error;

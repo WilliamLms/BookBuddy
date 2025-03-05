@@ -11,7 +11,7 @@ const Register = () => {
 
   const handleRegister = async (e) => {
     e.preventDefault();
-    setErrorMessage(null); // Reset error before new request
+    setErrorMessage(null); 
 
     try {
       const response = await fetch("https://fsa-book-buddy-b6e748d1380d.herokuapp.com/api/users/register", {
@@ -21,7 +21,6 @@ const Register = () => {
       });
 
       const data = await response.json();
-      console.log("API Response:", data); // Debugging
 
       if (!response.ok) {
         throw new Error(data.message || "Server error. Try again later.");

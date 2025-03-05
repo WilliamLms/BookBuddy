@@ -18,8 +18,6 @@ const Account = () => {
         });
 
         const data = await response.json();
-        console.log("API Response (User Data):", data);
-
         if (!response.ok) {
           throw new Error(data.message || "Failed to fetch account details.");
         }
